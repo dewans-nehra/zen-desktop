@@ -140,7 +140,7 @@
     }
 
     & #zen-workspaces-button .zen-workspace-sidebar-icon[no-icon='true'] + .zen-workspace-sidebar-name {
-      margin-left: 0;
+      margin-left: 50px;
     }
 
     & #zen-workspaces-button {
@@ -233,11 +233,10 @@
     border-radius: 5px;
     border: 1px solid var(--zen-colors-border);
 
-    margin-top: 10px;
+    margin-top: 50px;
 
     & .PanelUI-zen-workspaces-icons-container {
-      padding: 10px 0;
-      padding-top: 10px;
+      padding: 50px 0;
       min-width: 40px;
       display: flex;
       align-items: center;
@@ -286,6 +285,7 @@
     align-items: center;
     font-weight: 600;
     flex-shrink: 0;
+    margin-top: 50px;
   }
 
   &[data-usercontextid] .zen-workspace-icon {

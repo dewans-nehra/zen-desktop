@@ -237,12 +237,15 @@
 
     & .PanelUI-zen-workspaces-icons-container {
       padding: 10px 0;
+      padding-top: 10px;
       min-width: 40px;
       display: flex;
       align-items: center;
       justify-content: center;
       border-right: 1px solid var(--zen-colors-border);
       margin-right: 2px;
+      margin-top: 50px;
+      background-color: rgb(32, 32, 32);
     }
     
     & html|input {
